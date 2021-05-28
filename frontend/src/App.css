@@ -1,0 +1,21 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 70%;
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+form input, textarea {
+    flex: 1;
+    padding: 2vh 5vw;
+    font-size: 20px;
+}
