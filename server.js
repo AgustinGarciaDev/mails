@@ -9,8 +9,8 @@ let transport = nodemailer.createTransport({
     port: 465,
     host: 'smtp.gmail.com',
     auth: {
-        user: 'pruebitamindhub@gmail.com',
-        pass: 'mindhub21'
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PWD
     },
     tls: {
         rejectUnauthorized: false
